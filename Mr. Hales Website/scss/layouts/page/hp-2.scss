@@ -1,0 +1,343 @@
+/* Slider Revolution Section */
+.style-home-slider-hp-2 {
+	.slide-caption-title-0 {
+		height: 80px;
+		background: transparent;
+		@include border-radius(50%);
+		@extend display-flex;
+		@include align-items(center);
+		@include justify-content(center);
+		border: 1px solid #fff;
+	}
+	.slide-caption-title-1 {
+		font-weight: 700;
+	}
+	.btn-resize-slider-1 {
+		@include border-radius(3px);
+	}
+	.btn-small {
+	    padding: 17px 30px;
+	}
+}
+/* End Slider Revolution Section */
+
+/* Our Services Section */
+.services-section.services-hp-2-section {
+	background: #fff;
+	.owl-carousel {
+		.owl-nav {
+			display: none;
+		}
+		.owl-item {
+			.services-content {
+				.services-icon {
+					width: 70px;
+					height: 70px;
+					background: #2c53d2;
+					border: none;
+				}
+			}
+		}
+	}
+	.owl-theme {
+		.owl-dots {
+			display: block;
+			margin: 40px 0 10px;
+			.owl-dot {
+				@include outline(none);
+				span {
+					background: rgba(0,0,0,0.1);
+				}
+				&:hover {
+					span {
+						background: #2c53d2;
+					}
+				}
+			}
+			.owl-dot.active {
+				span {
+					background: #2c53d2;
+				}
+			}
+		}
+	}
+}
+/* End Our Services Section */
+
+/* Why Choose Us */
+.why-choose-hp-2 {
+	@include background-size(cover);
+	background-position: center center;
+	background-repeat: no-repeat;
+	.why-content {
+		.special-heading {
+			color: #fff;
+		}
+		.why-details {
+			text-align: center;
+			padding: 14px 0 84px;
+			span {
+				font-size: 55px;
+				font-weight: 700;
+				color: #fff;
+			}
+			p {
+				font-size: 16px;
+				color: #f2f2f2;
+				margin-top: -10px;
+			}
+		}
+	}
+}
+/* End Why Choose Us */
+
+/* Gallery Section */
+.hp-2-gallery-section.gallery-v2-section.gallery-v3-section {
+	.gallery-total {
+		padding: 0 5px;
+	}
+	.gallery-content {
+		margin: 0 -5px 20px;
+		.gallery-text {
+			.gallery-text-inner {
+				span {
+					color: #ccc;
+					font-size: 14px;
+				}
+			}
+			i {
+				border: none;
+			}
+		}
+	}
+	.all-gallery {
+		padding: 30px 0 25px;
+		text-align: center;
+		.au-btn {
+			@include border-radius(3px);
+		}
+		.btn-small {
+		    padding: 17px 47px;
+		}
+	}
+}
+/* End Gallery Section */
+
+/* Blog Section */
+.hp-2-blog-section.blog-v1-section.section-box {
+	padding-top: 72px;
+}
+.blog-v1-section.blog-v2-section.hp-2-blog-section {
+	background: #f2f2f2;
+	.blog-v1-detail {
+		.blog-v1-image {
+			img {
+				border-bottom-right-radius: 5px;
+				border-bottom-left-radius: 5px;
+				border-top-right-radius: 5px;
+			}
+			.overlay {
+				@include border-radius(5px);
+			}
+		}
+		h3 {
+			font-size: 20px;
+		}
+		p {
+			margin-bottom: 17px;
+		}
+		.more-link {
+			font-size: 15px;
+			color: #555;
+			&:hover {
+				color: #2c53d2;
+			}
+		}
+	}
+}
+/* End Blog Section */
+
+/* CTA Section */
+.cta-section.cta-hp-2.section-box {
+	padding: 95px 0;
+}
+.cta-section.cta-hp-2 {
+	@include background-size(cover);
+	background-position: center center;
+	background-repeat: no-repeat;
+	.cta-content {
+		.cta-text {
+			p {
+				color: #f2f2f2;
+				font-size: 18px;
+				font-weight: 700;
+			}
+			span {
+				font-weight: 400;
+				font-size: 18px;
+				padding-left: 5px;
+			}
+		}
+		.au-btn {
+			@include border-radius(3px);
+			color: #fff;
+			border: 2px solid #fff;
+			background: transparent;
+			&:hover {
+				border: 2px solid #ccc;
+				color: #555;
+			}
+		}
+		.btn-small {
+		    padding: 15px 22.5px;
+		}
+	}
+} 
+/* End CTA Section */
+
+/* Testimonials Section */
+.testimonials-section {
+	.owl-carousel {
+		.owl-thumbs,
+		.owl-nav {
+			display: none;
+		}
+		.owl-item {
+			.client-content {
+			    margin-top: 26px;
+				i {
+					font-size: 28px;
+					color: #f0f0f0;
+					z-index: 9;
+    				position: relative;
+				}
+			}
+			.client-quote {
+			    margin: -45px 0 0 20px;
+			    position: relative;
+			    span {
+			    	color: #333;
+			    	font-size: 18px;
+			    	font-weight: 700;
+			    }
+			    p {
+			    	font-size: 14px;
+			    	margin: 4px 0 9px;
+			    }
+			    .client-inner {
+				    position: absolute;
+				    top: 10%;
+				    left: 7%;
+				    width: 88%;
+				}
+			}
+			.client-images {
+				margin: 16px 0 0 20px;
+				img {
+				    width: 70px;
+				    height: 70px;
+				    @include border-radius(50%);
+				    float: left;
+				    margin-top: -8px;
+				}
+				.client-title {
+					margin-left: 87px;
+					span {
+						display: block;
+					}
+					.cilent-name {
+					    color: #333;
+					    font-size: 20px;
+					    font-weight: 700;
+					    margin-bottom: -6px;
+					}
+					.client-job {
+					    font-size: 16px;
+					}
+				}
+			}
+		}
+	}
+	.owl-theme {
+		.owl-dots {
+			margin: 45px 0 -12px;
+			.owl-dot {
+				@include outline(none);
+				span {
+					background: rgba(0,0,0,0.1);
+				}
+				&:hover {
+					span {
+						background: #2c53d2;
+					}
+				}
+			}
+			.owl-dot.active {
+				span {
+					background: #2c53d2;
+				}
+			}
+		}
+	}
+}
+/* End Testimonials Section */
+
+/* Car Type Section */
+.car-type-section.section-box {
+	padding-bottom: 80px;
+}
+.car-type-section {
+	background: #f2f2f2; 
+	h2 {
+		text-align: center;
+		font-size: 30px;
+		font-weight: 800;
+	}
+	p {
+	    text-align: center;
+    	width: 570px;
+    	margin: 6px auto 38px;
+	}
+	.owl-carousel  {
+		.owl-item {
+			img {
+				width: auto;
+				margin: 0 auto;
+				@include filter(grayscale(100%));
+				opacity: 0.5;
+				cursor: pointer;
+				&:hover {
+					@include filter(grayscale(0));
+					opacity: 1;
+				}
+			}
+		}
+		.owl-nav {
+			.owl-prev,
+			.owl-next {
+				position: absolute;
+				top: 50%;
+				@include transform(translateY(-50%));
+				font-size: 24px;
+			}
+			.owl-prev {
+				left: -3.5%;
+			}
+			.owl-next {
+				right: -3.5%;
+			}
+		}
+		.owl-nav [class*=owl-]  {
+			background: transparent;
+			color: #666;
+    		@include outline(none);
+		}
+	}
+	.owl-theme {
+		.owl-dots,
+		.owl-thumbs {
+			display: none;
+		}
+	}
+}
+/* End Car Type Section */

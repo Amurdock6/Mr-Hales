@@ -1,0 +1,415 @@
+/* Shopping Cart Page*/
+.cart-page {
+	.woocommerce {
+		overflow: hidden;
+		.woo-cart-form {
+			table.cart {
+			    margin-top: 21px;
+			    width: 100%;
+			    border-collapse: separate;
+			    overflow: hidden;
+			    border-spacing: 0;
+			    table-layout: auto;
+			    thead {
+			    	display: none;
+			    }
+			}
+			tr.cart_item { 
+				text-align: center;
+				.product-thumbnail {
+					img {
+						width: 100px;
+						height: 100px;
+					}
+				}
+				.product-name,
+				.product-subtotal,
+				.product-price {
+					font-size: 18px;
+					font-weight: 700;
+					color: #333;
+				}
+				.product-quantity {
+					.qty {
+					    width: 70px;
+					    display: inline-block;
+					}
+				}
+				.product-remove {
+				    position: relative;
+    				border-bottom: 30px solid;
+    				border-bottom-color: #fff;
+					i {
+						color: #e82222;
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		.actions {
+			padding: 25px 0 45px;
+			.coupon {
+				.input-text {
+					vertical-align: middle;
+				    background: #f2f2f2;
+				    border: 1px solid #e5e5e5;
+				    padding: 14px 5px;
+				    cursor: pointer;
+				}
+			}
+			.au-btn {
+			    padding: 25px;
+			    text-transform: none;
+			    letter-spacing: 0;
+			    line-height: 0;
+			    cursor: pointer;
+			    @include border-radius(3px);
+			}
+		}
+		.cart-collaterals {
+		    padding: 43px 38px 60px;
+		    border: 1px solid #e5e5e5;
+		    .cart_totals {
+		    	h3 {
+		    		font-size: 25px;
+		    		font-weight: 800;
+		    		padding-bottom: 8px;
+		    	}
+		    	table {
+		    		border: none;
+		    	}
+		    	.cart-subtotal,
+		    	.shipping {
+		    		th {
+						color: #333;
+						font-weight: 700;
+						display: table-cell;
+						width: 34%;
+						border-bottom: 1px dashed #e5e5e5;
+		    		}
+		    		td {
+		    			border-bottom: 1px dashed #e5e5e5;
+		    			display: table-cell;
+		    			padding: 12px 0;
+		    		}
+		    	}
+		    	.cart-subtotal {
+		    		td {
+						color: #333;
+		    			font-size: 18px;
+		    			font-weight: 700;
+		    		}
+		    	}
+		    	.shipping {
+		    		.shipping-calculator-button {
+		    			color: #333;
+		    			font-weight: 700;
+		    			text-decoration: underline;
+		    			padding: 21px 0 43px;
+		    			cursor: pointer;
+		    			display: block;
+		    			&:hover {
+		    				color: #2c53d2;
+		    			}
+		    		}
+		    		.shipping-calculator-form {
+		    			margin-top: -26px;
+		    			p.form-row {
+		    				margin: 0 0 14px 0;
+		    				position: relative;
+		    			}
+		    			select,
+		    			input {
+		    				color: #888;
+		    				@include border-radius(3px);
+		    				@include box-sizing(border-box);
+		    			}
+		    			select {
+							padding: 6.5px 15px;
+						    z-index: 9;
+						    position: relative;
+						    background: 0 0;
+						    cursor: pointer;
+		    			}
+		    			input {
+		    				padding: 9px 15px;
+		    			}
+		    			.select-btn {
+	    				    position: absolute;
+						    right: 15px;
+						    top: 5px;
+						    z-index: 0;
+		    			}
+		    			.btn-small {
+						    padding: 17px 42px;
+						}
+						.au-btn {
+							margin: 8px 0 22px;
+						}
+		    		}
+		    	}
+		    	.order-total {
+		    		th, td {
+		    			color: #333;
+		    			font-size: 18px;
+		    			font-weight: 700;
+		    			padding: 23px 0 32px;
+		    		}
+		    	}
+		    	.wc-proceed-to-checkout {
+		    		.au-btn {
+		    			width: 100%;
+		    			@include border-radius(3px);
+		    		}
+		    	}
+		    }
+		}
+	}
+}
+/* End Shopping Cart Page*/
+
+/* Shop Product Page */
+.shop-product-page.blog-left-section {
+	.woocommerce {
+		.content-area {
+			margin-left: 20px;
+			padding: 0 5px;
+			.storefront-sorting {
+				@extend display-flex;
+				@include justify-content(space-between);
+				padding-bottom: 45px;
+				margin: 0 -5px;
+				.woocommerce-result-count {
+					font-size: 16px;
+					margin: 8px 0 0;
+				}
+				.woocommerce-ordering {
+					select {
+						background: #f2f2f2 url('../images/icons/icon-dropdown.png') no-repeat scroll;
+    					background-position: right 8px center;
+						cursor: pointer;
+						color: #666;
+						padding: 9px 12.5px;
+					}				
+				}
+			}
+			.product {
+				margin: 0 -5px;
+				position: relative;
+				.woocommerce-LoopProduct-link {
+					text-align: center;
+				    padding-bottom: 51px;
+				}
+				.product-image {
+					position: relative;
+					&:hover {
+						.overlay,
+						.add_to_cart_button {
+							opacity: 1;
+						}
+						.yith-wcwl-add-button {
+							a {
+								color: #fff;
+							}
+						}
+					}
+					.overlay {
+						background: rgba(0,0,0,0.8);
+					}
+					.yith-wcwl-add-button {
+						position: absolute;
+						top: 8px;
+						right: 15px;
+						z-index: 99;
+						color: #666;
+					}
+					.add_to_cart_button {
+						@extend display-flex;
+    					@include justify-content(center);
+    					@include align-items(center);
+    					position: absolute;
+    					top: 50%;
+    					left: 50%;
+    					@include transform(translate(-50%,-50%));
+    					width: 100%;
+    					opacity: 0;
+    					z-index: 9;
+						i {
+							color: #fff;
+						    background: #2c53d2;
+					        padding: 8px;
+    						font-size: 24px;
+    						z-index: 9;
+    						cursor: pointer;
+    						&:hover {
+    							background: #315deb;
+    						}
+						}
+						.au-btn {
+							z-index: 9;
+							font-size: 15px;
+							color: #2c53d2;
+							background: #fff;
+							border: none;
+							cursor: pointer;
+							&:hover {
+								background: #e5e5e5;
+							}
+						}
+						.btn-small {
+						    padding: 12.5px 16.5px;
+						}
+					}
+				}
+				.woocommerce-loop-product__title {
+					font-size: 22px;
+					font-weight: 400;
+					padding: 24px 0 7px;
+				}
+				.price {
+					font-size: 20px;
+					font-weight: 700;
+					color: #2c53d2;
+				}
+			}
+		}
+		.woocommerce-pagination {
+		    text-align: center;
+		    margin: -10px 0 -7px;
+		    .page-numbers {
+		    	a {
+		    		width: 40px;
+		    		height: 40px;
+		    		position: relative;
+		    		border: 1px solid #e5e5e5;
+		    		@include border-radius(3px);
+		    		margin-right: 6px;
+		    		color: #666;
+		    		span {
+		    			font-size: 16px;
+		    			font-weight: 700;
+		    			position: absolute;
+		    			top: 50%;
+		    			left: 50%;
+		    			@include transform(translate(-50%,-50%));
+		    		}
+		    		&:hover {
+		    			color: #fff;
+		    			background: #2c53d2;
+		    			border: 1px solid #2c53d2;
+		    		}
+		    	}
+		    	a.current {
+		    		border: none;
+		    		color: #fff;
+		    		background: #2c53d2;
+		    	}
+		    }
+		}
+		.blog-left-sidebar.widget-area {
+			.widget_search {
+				margin-bottom: 44px;
+			}
+			.widget_price_filter {
+				.widget-title {
+					margin-bottom: 30px;
+					font-size: 22px;
+					cursor: pointer;
+				}
+				.price_slider_wrapper {
+					.price_slider_amount {
+					    @extend display-flex;
+					    @include justify-content(space-between);
+					    margin: 30px 0 44px;
+					    .button {
+					    	.au-btn {
+					    		font-weight: 400;
+					    	}
+					    	.btn-small {
+				    		    padding: 12px 31.3px;
+					    	}
+					    }
+					}
+				}
+				.noUi-horizontal {
+				    height: 8px;
+				    .noUi-handle {
+						border: 3px solid #2c53d2;
+						@include border-radius(50%);
+						@include box-shadow(none);
+						@include outline(none);
+						cursor: pointer;
+						background: #fff;
+					    width: 18px;
+					    height: 18px;
+					    &:before,
+					    &:after {
+					    	content: none;
+					    }
+				    }
+				}
+				.noUi-target{
+					background: #f2f2f2;
+					@include box-shadow(none);
+					margin-right: 15px;
+				}
+				.noUi-connects {
+				    margin-left: 5px;
+				    .noUi-connect {
+				    	background: #2c53d2;
+				    }
+				}
+				html:not([dir="rtl"]) .noUi-horizontal .noUi-origin {
+				    left: -3px;
+				}
+				html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
+				    right: -17px;
+				    left: auto;
+				}
+			}
+			.widget_tag_cloud {
+				.tagcloud {
+					margin-bottom: 34px;
+				}
+			}
+			.top-sell{
+				h3 {
+					padding-bottom: 26px;
+				}
+				.top-sell-inner {
+					margin-bottom: 41px;
+					img {
+						width: 70px;
+						height: 70px;
+						float: left;
+						&:hover {
+							@include transform(scale(1.05));
+							@include transition(0.4s);
+						}
+					}
+					.product-info {
+						margin: -72px 0 0 90px;
+						font-size: 16px;
+						a {
+							span {
+								color: #333;
+								font-weight: 400;
+							}
+							&:hover {
+								span {
+									color: #2c53d2;
+								}
+							}
+						}
+						span {
+							display: block;
+							font-weight: 700;
+							color: #2c53d2;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* End Shop Product Page */

@@ -1,0 +1,221 @@
+/* Services Section */
+.services-section-page.section-box {
+	padding-top: 80px;
+	padding-bottom: 85px;
+}
+.services-section-page.welcome-section {
+	.services-list {
+		ul {
+			li {
+				a {
+					font-size: 18px;
+					font-weight: 700;
+					padding: 15px 22px;
+				    background: #f2f2f2;
+				    margin-bottom: 15px;
+				    width: 100%;
+				    border-left: 3px solid #2c53d2;
+				    &:hover {
+				    	color: #fff;
+				    	background: #2c53d2;
+				    }
+				}
+			}
+			li.active {
+				a {
+					color: #fff;
+					background: #2c53d2;
+				}
+			}
+		}
+	}
+	.discount {
+		border: 1px solid #e5e5e5;
+		text-align: center;
+	    margin-top: 30px;
+		span {
+			display: block;
+		}
+		.percent {
+			font-size: 54px;
+			font-weight: 700;
+			color: #2c53d2;
+			padding-top: 15px;
+		}
+		.text-1 {
+			font-size: 25px;
+			font-family: 'Lato', sans-serif;
+			font-weight: 900;
+			color: #333;
+		}
+		.text-2 {
+			font-size: 20px;
+			margin: -6px 0 56px;
+		}
+		.au-btn {
+			margin-bottom: 30px;
+			font-size: 15px;
+			@include border-radius(3px);
+		}
+		.btn-small {
+		    padding: 17.5px 33px;
+		}
+	}
+	.services-detail {
+		padding-left: 20px;
+		.special-heading {
+			font-size: 25px;
+			text-align: left;
+		    padding-bottom: 15px;
+		    &:before {
+		    	left: 0;
+		    	@include transform(translateX(0));
+		    } 
+		}
+		.services-first {
+			padding-bottom: 35px;
+			img {
+				margin-bottom: 53px;
+			}
+			.special-heading {
+				margin-bottom: 26px;
+			}
+			p {
+				font-size: 14px;
+				margin-bottom: 12px;
+			}
+		}
+		.services-price {
+		    padding-bottom: 52px;
+		    .special-heading {
+				margin-bottom: 38px;
+			}
+			table {
+				width: 100%;
+			}
+			table, td {
+			    border: 1px solid #e5e5e5;
+			}
+			tr:nth-child(odd) {
+				background-color: #f2f2f2;
+			}
+			td {
+				width: 50%;
+				font-size: 16px;
+				padding: 15px 25px 18px;
+				&:first-child {
+					text-align: right;
+				}
+			}
+		}
+		.welcome-content {
+			margin-top: 0;
+		    padding-left: 10px;
+			.special-heading {
+				margin-bottom: 31px;
+			}
+			p {
+				font-size: 14px;
+			    margin-bottom: 32px;
+			}
+			.welcome-inner {
+				position: relative;
+				.percent {
+					position: absolute;
+					top: 5px;
+					font-size: 14px;
+				}
+				.percent-1 {
+					margin-left: 55%;
+				}
+				.percent-2 {
+					margin-left: 50%;
+				}
+				.percent-3 {
+					margin-left: 38%;
+				}
+				.percent-4 {
+					margin-left: 44.5%;
+				}
+				.crossbar.crossbar-1 {
+					&:before {
+						width: 90%;
+					}
+				}
+				.crossbar.crossbar-2 {
+					&:before {
+						width: 85%;
+					}
+				}
+				.crossbar.crossbar-3 {
+					&:before {
+						width: 81.5%;
+					}
+				}
+			}
+		}
+		.why-choose {
+			padding-right: 5px;
+			.special-heading {
+				margin-bottom: 38px;
+			}
+			.card {
+				border: none;
+				margin-bottom: 15px;
+				background-color: #fff;
+				@include border-radius(0);
+				.card-header {
+					border-bottom: none;
+				    background-color: #f2f2f2;
+		            padding: 0;
+    				position: relative;
+    				&:first-child {
+    					@include border-radius(0);
+    				}
+				    .btn-link {
+				    	width: 84%;
+				    	color: #666;
+				    	margin-left: 65px;
+				    	&:hover,
+				    	&:focus {
+				    		text-decoration: none;
+				    	}
+				    }
+				    .btn {
+				    	font-size: 16px;
+				    	padding: 17px 0;
+				    	text-align: left;
+				    	@include border-radius(0);
+				    	i {
+				    		font-size: 25px;
+						    width: 55px;
+						    background: #2c53d2;
+						    color: #fff;
+						    position: absolute;
+						    top: 0;
+						    left: 0;
+						    height: 100%;
+						    @extend display-flex;
+						    @include justify-content(center);
+						    @include align-items(center);
+				    	}
+				    }
+				    .btn.collapsed {
+				    	i {
+				    		background: #e5e5e5;
+				    		color: #666;
+				    	}
+				    }
+				}
+			}
+			.card-body {
+				border: 1px solid #e5e5e5;
+    			border-top: none;
+    			border-bottom: 3px solid #2c53d2;
+    			font-size: 14px;
+    			padding: 23px 30px 29px;
+			}
+		}
+	}
+}
+/* End Services Section */

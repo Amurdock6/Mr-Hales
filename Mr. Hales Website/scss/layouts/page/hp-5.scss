@@ -1,0 +1,253 @@
+/* Slider Revolution Section */
+.style-home-slider-hp-1.style-home-slider-hp-5 {
+    .slide-caption-title-0 {
+        height: 75px;
+        @include border-radius(50%);
+        background-color: rgb(44, 83, 210);
+        position: relative;
+        &:after {
+            position: absolute;
+            content: '';
+            width: 83px;
+            height: 83px;
+            top: -4px;
+            left: -4px;
+            border: 4px solid rgba(44, 83, 210,0.6);
+            @include border-radius(50%);
+        }
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform(translate(-50%,-50%));
+        }
+    }
+    .btn-resize-slider-1,
+    .btn-resize-slider-2 {
+        @include border-radius(25px);
+    }
+}
+
+/* End Slider Revolution Section */
+
+/* About Company */
+.about-cpy {
+    .about-tab {
+        .nav {
+            @include justify-content(center);
+            .nav-item {
+                @include border-radius(5px);
+                border: 1px solid #e5e5e5;
+                margin-right: 15px;
+                cursor: pointer;
+                .nav-link {
+                    display: block;
+                    padding: 17px 34px;
+                    color: #2c53d2;
+                    font-weight: 700;
+                    font-size: 16px;
+                }
+                .nav-link.active {
+                    color: #fff;
+                    background: #2c53d2;
+                    @include box-shadow(0px 3px 15px 0px rgba(44, 83, 210, 0.5));
+                }
+                #pills-profile-tab {
+                    padding: 17px 46px;
+                }
+                #pills-contact-tab {
+                    padding: 17px 28px;
+                }
+            }
+        }
+    }
+    .tab-content {
+        padding-top: 50px;
+        .about-image {
+            margin-left: 20px;
+            img {
+                @include border-radius(5px);
+            }
+        }
+        h3 {
+            font-size: 28px;
+            padding: 30px 0 17px;
+        }
+        h4 {
+            padding: 6px 0 14px;
+        }
+        .welcome-content {
+            margin-top: 0;
+        }
+        .history {
+            p {
+                margin-bottom: 31px;
+            }
+            .history-inner {
+                @extend display-flex;
+                @include justify-content(space-between);
+                @include align-items(center);
+                margin-bottom: 20px;
+                .number {
+                    font-size: 26px;
+                    font-weight: 700;
+                    @include border-radius(5px);
+                    border: 1px solid #e5e5e5;
+                    width: 120px;
+                    height: 50px;
+                    text-align: center;
+                    margin-right: 15px;
+                }
+                .number-special {
+                    font-size: 28px;
+                    color: #fff;
+                    background: #2c53d2;
+                    @include box-shadow(0px 3px 10px 0px rgba(44, 83, 210, 0.4));
+                    border: none;
+                }
+                p {
+                    font-size: 16px;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    width: 76%;
+                    margin: 3px 0 0;
+                }
+            }
+        }
+    }
+}
+/* End About Company */
+
+/* Our Services Section */
+.services-hp-5.section-box {
+    padding-top: 0;
+}
+.services-hp-5 {
+    @include background-size(cover);
+    background-repeat: no-repeat;
+    background-position: center center;
+    .services-detail {
+        background: #fff;
+        text-align: center;
+        @include border-radius(3px);
+        cursor: pointer;
+        margin-top: -65px;
+        img {
+            border-top-right-radius: 3px;
+            border-top-left-radius: 3px;
+        }
+        .service-info {
+            padding: 24px 17px 22px;
+            p {
+                margin-top: 10px;
+            }
+        }
+        &:hover {
+            .service-info {
+                h4 {
+                    a {
+                        color: #2c53d2;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* End Our Services Section */
+
+/* Gallery Section */
+.hp-5-gallery-section.hp-2-gallery-section.gallery-v2-section.gallery-v3-section {
+    background: #f2f2f2;
+    .gallery-total {
+        padding: 0 50px;
+        .gallery-content {
+            cursor: pointer;
+            .gallery-text {
+                i {
+                    padding: 43.5px 24px;
+                }
+                .gallery-text-inner {
+                    span {
+                        font-size: 15px;
+                        color: #f2f2f2;
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Gallery Section */
+
+/* Testimonials Section */
+.testimonials-section.testimonials-hp-5 {
+    .owl-carousel {
+        .owl-item  {
+            .client-content {
+                i {
+                    font-size: 30px;
+                }
+                .client-quote {
+                    margin: -23px 0 0 15px;
+                    p {
+                        font-size: 15px;
+                        margin: 5px 0 8px;
+                    }
+                }
+                .client-images {
+                    .client-title  {
+                        .client-job {
+                            font-family: 'Source Sans Pro', sans-serif;
+                        }
+                    }    
+                }
+            }
+        }
+    }
+}
+/* End Testimonials Section */
+
+/* Cta Section */
+.cta-section.cta-our-team.cta-hp-5.section-box {
+    padding: 78px 0 79px;
+}
+.cta-section.cta-our-team.cta-hp-5 {
+    .cta-content {
+        .cta-text {
+            span {
+                font-weight: 400;
+            }
+        }
+        .btn-small {
+            padding: 15px 22.5px;
+        }
+        .au-btn {
+            color: #fff;
+            background: transparent;
+            border: 2px solid #fff;
+            @include border-radius(25px);
+            &:hover {
+                background: #ccc;
+                border: 2px solid #ccc;
+                color: #555;
+            }
+        }
+    }
+}
+/* End Cta Section */
+
+/* Blog Section */
+.blog-v1-section.blog-v2-section.hp-4-blog-section.hp-5-blog-section {
+    background: #f2f2f2;
+    .blog-v1-detail {
+        p {
+            margin-bottom: 12px;
+        }
+    } 
+}
+/* End Blog Section */
+
+/* Car Type Section */
+.car-type-section.car-type-hp-5 {
+    background: #fff;
+}
+/* End Car Type Section */

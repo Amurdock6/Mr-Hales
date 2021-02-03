@@ -1,0 +1,73 @@
+.breadcrumb-inner .weber-state h1 {
+    color: #f8f8ff;
+	background-color: #C0C0C0;
+	opacity: 1;
+	font-weight: 600;
+    font-size: 50px;
+    padding-bottom: 8px;
+	}
+	
+.container .breadcrumb-inner h1 {
+	margin-top: 75px;
+	color: 	#C0C0C0;
+	background-color: #080808; 
+	width: auto; 
+	height: 60px; 
+	text-align: center;
+	opacity: 0.87;
+}
+
+.main-page-layout {	
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/* table */
+
+table {
+	border-top: 3px solid grey;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	text-align: center;
+}
+
+th, td {
+	border-right: 3px ridge purple;
+}
+
+
+.winners-heading {
+	text-align: left;
+	font-size: 35px;
+	font-weight: 800;
+	color: #333333;
+	padding-top: 40px;
+	padding-bottom: 30px;
+	
+}
+
+.content-wrapper	{
+	-ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+  
+	}
+
+
+
+	
+@media (max-width: 575px) {
+	
+.test {	
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-size: 0.7em;
+	padding-right: 25px;
+	}
+.breadcrumb-section.section-box {
+	background-image: url(images/balancer-mobile.jpg);
+}
+}

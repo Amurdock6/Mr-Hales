@@ -1,0 +1,147 @@
+/* Footer hp-1 */
+.footer {
+	position: relative;
+}
+.footer-section {
+	background-position: center center;
+	@include background-size(cover);
+	color: #fff;
+	.footer-item {
+	    img {
+	    	margin-top: -4px;
+	    }
+	    p {
+	    	font-size: 15px;
+	    	margin-top: 3px;
+	    	color: #d9d9d9;
+	    }
+	    .footer-socials {
+	    	a {
+	    		width: 40px;
+	    		height: 40px;
+	    		position: relative;
+	    		@include border-radius(3px);
+	    		border: 1px solid;
+	    		border-color: rgba(255,255,255,0.2);
+	    		background: transparent;
+	    		color: #ccc;
+	    		margin-right: 7px;
+	    		margin-top: 7px;
+	    		i {
+	    			position: absolute;
+	    			top: 50%;
+	    			left: 50%;
+	    			@include transform(translate(-50%,-50%));
+	    		}
+	    		&:hover {
+	    			color: #fff;
+	    			background: #2c53d2;
+	    			border: none;
+	    		}
+	    	}
+	    }
+	    h4 {
+			margin-top: 32px;
+			margin-bottom: 17px;
+			a {
+				color: #fff;
+				&:hover {
+					color: #2c53d2;
+				}
+			}
+	    }
+	    ul {
+	    	li {
+	    		font-size: 15px;
+	    		padding-bottom: 5px;
+	    		a {
+	    			color: #d9d9d9;
+	    			i {
+	    				color: #2c53d2;
+    				    font-size: 14px;
+    					margin-right: 7px;
+	    			}
+	    			&:hover {
+	    				color: #2c53d2;
+	    			}
+	    		}
+	    	}
+	    }
+	    .tags-item {
+	    	cursor: pointer;
+	    	margin-top: 24px;
+	    	span {
+	    		    font-size: 14px;
+				    border: 1px solid;
+				    border-color: rgba(229,229,229,0.3);
+				    margin-right: 10px;
+				    margin-bottom: 10px;
+				    text-align: center;
+				    display: block;
+				    float: left;
+				    padding: 5px 24px;
+				    a {
+				    	color: #d9d9d9;
+				    	&:hover {
+				    		color: #2c53d2;
+				    	}
+				    }
+	    	}
+	    }
+	    .contact-detail {
+    	    margin-bottom: 10px;
+    	    font-size: 15px;
+    	    .contact-detail-inner {
+    	    	span {
+    	    		color: #d9d9d9;
+    	    		a {
+    	    			color: #d9d9d9;
+    	    			&:hover {
+    	    				color: #2c53d2;
+    	    			}
+    	    		}
+    	    	}
+    	    }
+	    	i {
+	    		float: left;
+	    		color: #2c53d2;
+	    		font-size: 22px;
+	    		font-weight: 600;
+	    		margin-right: 10px;
+	    		margin-top: 3px;
+	    	}
+	    }
+	}
+}
+.sub-footer {
+	text-align: center;
+	background: rgba(255, 255, 255, 0.05);
+	padding: 17px 0 2px;
+	position: absolute;
+    width: 100%;
+    bottom: 0;
+	p {
+		color: #ccc;
+		font-size: 14px;
+		a {
+			color: #fff;
+			font-weight: 700;
+			&:hover {
+				color: #2c53d2;
+			}
+		}
+	}
+}
+/* End Footer hp-1 */
+
+/* Footer Our Team v1 */
+.footer-section.our-team-ft {
+	.footer-socials {
+		a {
+			&:hover {
+				background: rgba(92, 144, 255, 0.5);
+			}
+		}
+	}
+}
+/* End Footer Our Team v1 */

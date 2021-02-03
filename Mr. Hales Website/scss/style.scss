@@ -1,0 +1,45 @@
+/* [Table of contents] 
+	1. Minxi 
+	2. Extend 
+	3. Global 
+	4. Header 
+	5. Footer 
+	6. Homepage
+	7. Featured 
+	8. Page 
+	9. Shop
+	10. Blog 
+	11. Contact  
+ 	12. Responsive 
+ 	-------------------------------------------------------------------*/ 
+@import 'common/minxi.scss';
+/* 2. Extend ------------------------------------------------------------ */
+@import 'common/extend.scss';
+/* 3. Global ------------------------------------------------------------ */
+@import 'common/global.scss';
+/* 4. Header ------------------------------------------------------------ */
+@import 'layouts/header.scss';
+/* 5. Footer ------------------------------------------------------------ */
+@import 'layouts/footer.scss';
+/* 6. Homepage ------------------------------------------------------------ */
+@import 'layouts/page/hp-1.scss';
+@import 'layouts/page/hp-2.scss';
+@import 'layouts/page/hp-3.scss';
+@import 'layouts/page/hp-4.scss';
+@import 'layouts/page/hp-5.scss';
+@import 'layouts/page/hp-6.scss';
+/* 7. Featured ------------------------------------------------------------ */
+@import 'layouts/page/services.scss';
+/* 8. Page ------------------------------------------------------------ */
+@import 'layouts/page/gallery.scss';
+@import 'layouts/page/about-us.scss';
+@import 'layouts/page/our-team.scss';
+/* 9. Shop ------------------------------------------------------------ */
+@import 'layouts/page/shopping.scss';
+/* 10. Blog ------------------------------------------------------------ */
+@import 'layouts/page/blog.scss';
+/* 11. Contact ------------------------------------------------------------ */
+@import 'layouts/page/contact.scss';
+/* 12. Responsive ------------------------------------------------------------ */
+@import 'layouts/responsive.scss';
+

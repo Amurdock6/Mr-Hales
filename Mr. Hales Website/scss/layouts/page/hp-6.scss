@@ -1,0 +1,238 @@
+/* Slider Revolution Section */
+.style-home-slider-hp-1.style-home-slider-hp-6 {
+	.slide-caption-title-2 {
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+}
+/* End Slider Revolution Section */
+
+/* CTA Section */
+.cta-section.cta-hp-6.section-box {
+	padding: 45px 0;
+	@include background-size(cover);
+	background-repeat: no-repeat;
+	background-position: center center;
+	.cta-content {
+		padding-top: 0;
+		.cta-inner {
+			@extend display-flex;
+    		@include align-items(center);
+    		@include justify-content(space-between);
+			i {
+				color: #fff;
+				font-size: 60px;
+				padding-left: 18px;
+			}
+			.cta-text {
+				margin-left: 18px;
+				p {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
+/* End CTA Section */
+
+/* Our Services */
+.services-section.services-hp-2-section.services-hp-6-section {
+	.owl-carousel {
+		.owl-item {
+			.services-content {
+				.services-icon {
+					width: 80px;
+					height: 80px;
+					background: transparent;
+					border: 1px solid #e5e5e5;
+				}
+				&:hover {
+					.services-icon {
+						border: none;
+						background: #2c53d2;
+						border: 1px solid #2c53d2;
+					}
+				}
+			}
+		}
+	}
+	.owl-theme {
+		.owl-dots {
+			margin: 33px 0 10px;
+		}
+	}
+}
+/* End Our Services */
+
+/* Why Choose Us Section */
+.why-hp-6 {
+	.why-detail {
+		background: #1a1a1a;
+		position: relative;
+		padding: 0 0 63px;
+	}
+	.why-left {
+	    padding: 72px 35px 27px 0;
+		.special-heading {
+			text-align: left;
+			margin-bottom: 26px;
+			color: #fff;
+			&:before {
+				left: 0;
+				@include transform(translateX(0));
+			}
+		}
+		.info {
+			color: #b2b2b2;
+		    margin-bottom: 27px;
+		}
+		.inner {
+			padding-bottom: 20px;
+			i {
+			    font-size: 21px;
+			    color: #b2b2b2;
+			    font-weight: 700;
+			    float: left;
+			    padding-right: 15px;
+			}
+			h4 {
+				font-size: 18px;
+				color: #b2b2b2;
+			}
+		}
+		.button {
+		    margin-top: 34px;
+		}
+		.btn-small {
+		    padding: 17px 47.5px;
+		}
+		.au-btn {
+			@include border-radius(3px);
+		}
+	}
+	.why-image-view {
+	    position: absolute;
+	    top: 0;
+	    right: 0;
+	    bottom: 0;
+	    padding-right: 0;
+	    .why-right {
+	    	margin-left: -90px;
+	    }
+	}
+}
+/* End Why Choose Us Section */
+
+/* Gallery Section */
+.hp-6-gallery-section.hp-2-gallery-section.gallery-v2-section.gallery-v3-section {
+	.all-gallery {
+		.au-btn {
+			@include border-radius(5px);
+		}
+		.btn-small {
+			padding: 17px 43px;
+		}
+	}
+	.gallery-content {
+		.gallery-text {
+			.gallery-text-inner {
+				span {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}
+/* End Gallery Section */
+
+/* Statistics Section */
+.statistics-section.statistics-hp-6.section-box {
+    padding-top: 40px;
+}
+.statistics-section.statistics-hp-6 {
+	background: #1a1a1a;
+	.statistics-content {
+		span {
+			font-size: 60px;
+			color: #2c53d2;
+		}
+		p {
+			color: #666;
+		    margin-top: -14px;
+		}
+	}
+}
+
+/* Testimonials Section */
+.testimonials-section.testimonials-hp-5.testimonials-hp-6 {
+	.owl-carousel {
+		margin-top: -3px;
+		.owl-item {
+			.client-content {
+				.client-quote {
+					margin: -27px 0 0 20px;
+					p {
+						font-size: 14px;
+					}
+				}
+				i {
+					font-size: 28px;
+					color: #f0f0f0;
+				}
+			}
+		}
+	}
+}
+/* End Testimonials Section */
+
+/* Blog Section */
+.blog-v1-section.blog-v2-section.hp-2-blog-section.hp-6-blog-section {
+	.blog-v1-detail {
+		h3 {
+			margin: 30px 0 8px;
+		}
+		p {
+			margin-bottom: 22px;
+		}
+	}
+}
+/* End Blog Section */
+
+/* Pricing Table Section */
+.price-section.price-hp-6 {
+	@include background-size(cover);
+	background-repeat: no-repeat;
+	background-position: center center;
+	.special-heading {
+		color: #fff;
+	}
+	.price-content {
+		border: none;
+		.type {
+			background: #2c53d2;
+		}
+		.price {
+			padding: 8px 0;
+			span {
+				font-size: 45px;
+			}
+		}
+		.detail {
+			.au-btn {
+				@include border-radius(3px);
+				@include box-shadow(none);
+			}
+		}
+	}
+}
+/* End Pricing Table Section */
+
+
+/* Partner Section */
+.partner-section.partner-hp-6.section-box {
+	padding: 51px 0;
+	background: #fff;
+	.partner-content {
+		background: transparent;
+	}
+}
+/* End Partner Section */

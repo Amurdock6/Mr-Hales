@@ -1,0 +1,41 @@
+Future Improvmetns
+===========================================================================================
+add sticky to header
+add filtter to tabels
+
+HALES REQUEST
+===========================================================================================
+all for filled
+
+SIDE NOTES
+===========================================================================================
+top img is 1920x270
+align main Items is in .col classes
+
+links
+==========================================================================================
+index.html
+classes.html
+into-to-auto.html
+small-engine.html
+auto-1010.html
+auto-1150.html
+compatetion.html
+skill-usa.html
+weber-state.html
+aaa-ford.html
+contact.html
+
+
+
+Images that need resizeing for ipad and iphone
+-balancer
+-bikes
+-grandam
+-hotroders
+-saturan-twin-valve
+-trophies1
+-trophies2
+
+Images that have been resized and there new names
+
