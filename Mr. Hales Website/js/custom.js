@@ -184,35 +184,7 @@
 
     /*Header Scroll*/
     /*Fixed Navbar When Scroll*/
-   /* var navbarFixed = $("#js-navbar-fixed");
-    var headerOffset = navbarFixed.offset().top + 0;
-    $(window).on('scroll',function () {
-        if ($(window).scrollTop() > headerOffset) {
-            navbarFixed.addClass('fixed').removeClass("unfixed");
-        } else {
-            navbarFixed.addClass('unfixed').removeClass("fixed");
-        }
-    });
-	*/
-	
-	window.onscroll = function() {
-	  navbarFun()
-	};
-
-	var navbar = document.getElementById("#js-navbar-fixed");
-	var sticky = navbar.offsetTop;
-
-	function navbarFun() {
-	  if (window.pageYOffset >= sticky) {
-		navbar.classList.add("sticky")
-	  } else {
-		navbar.classList.remove("sticky");
-	  }
-	}
-	
-	
-	
-	
+    
     /*End Header Scroll*/
 
     /*Client Section hp-1*/

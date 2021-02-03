@@ -1155,10 +1155,10 @@ input[type=number]::-webkit-outer-spin-button {
     .services-section .owl-carousel .owl-item .services-content {
       text-align: center; }
       .services-section .owl-carousel .owl-item .services-content .services-icon {
-        width: 80px;
-        height: 80px;
+        width: 220px;
+        height: 100px;
         margin: 0 auto;
-        background: #2c53d2;
+        background: #000;
         border-radius: 50%;
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
